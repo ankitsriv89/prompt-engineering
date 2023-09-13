@@ -1,0 +1,13 @@
+dynamic prompts: Instead of using a static template, this approach incorporates examples of previous
+interactions, allowing the AI better to understand the context and style of the desired response.
+
+Dynamic prompts offer several advantages over static templates:
+Improved context understanding: By providing examples, the AI can grasp the context and style of responses
+more effectively, enabling it to generate responses that are more in line with the desired output.
+
+Flexibility: Dynamic prompts can be easily customized and adapted to specific use cases, allowing developers
+to experiment with different prompt structures and find the most effective format for their application.
+
+Better results: As a result of the improved context understanding and flexibility,
+dynamic prompts often yield higher-quality outputs that better match user expectations.
+
