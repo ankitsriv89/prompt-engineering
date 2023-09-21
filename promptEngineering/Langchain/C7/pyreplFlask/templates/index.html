@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Query Agent</title>
+</head>
+<body>
+    <h1>AI Query Agent</h1>
+    <form method="POST">
+        <label for="query">Enter your search query:</label>
+        <input type="text" id="query" name="query" required>
+        <button type="submit">Search</button>
+    </form>
+    {% if query %}
+    <h2>Query:</h2>
+    <p>{{ query }}</p>
+    <h2>Result:</h2>
+    <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,17 @@
+langchain
+deeplake
+openai
+tiktoken
+elevenlabs
+streamlit
+beautifulsoup4
+audio-recorder-streamlit
+streamlit-chat
+google-search-results
+pyPDF
+Flask
+pyqt5
+kivy
+google-search-results
+wikipedia
+Wolframalpha

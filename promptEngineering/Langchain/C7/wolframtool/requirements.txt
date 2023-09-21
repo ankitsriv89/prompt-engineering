@@ -1,0 +1,8 @@
+deeplake
+langchain
+openai
+tiktoken
+
+flask
+flask_bootstrap
+Wolframalpha

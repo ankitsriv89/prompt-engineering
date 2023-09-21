@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin for body */
+    padding: 0; /* Remove default padding for body */
+    height: 100vh; /* Set the body height to the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background:
+}
+
+.container {
+    height: 100vh; /* 100% of viewport height */
+    width: 100vw; /* 100% of viewport width */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    flex: 1; /* Use flex to make the container occupy available vertical space */
+
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#chat-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    height: 70%; /* Make the chat container fill the available space */
+    display: flex;
+    flex-direction: column;
+}
+
+/*#chat-display {
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}*/
+#chat-display {
+    flex: 1; /* Make the chat display occupy all available vertical space */
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/*#user-input {
+    width: 80%;
+    padding: 5px;
+    margin-right: 10px;
+}*/
+#user-input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+}

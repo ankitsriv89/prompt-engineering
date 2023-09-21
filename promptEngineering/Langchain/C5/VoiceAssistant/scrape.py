@@ -7,7 +7,7 @@ openai_api_key = os.environ.get('OPENAI_API_KEY')
 eleven_api_key = os.environ.get('ELEVEN_API_KEY')
 
 #1. Sourcing Content from Hugging Face Hub
-import os
+
 import requests
 from bs4 import BeautifulSoup
 from langchain.embeddings.openai import OpenAIEmbeddings

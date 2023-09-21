@@ -1,0 +1,40 @@
+LangChain is a library that provides tools for working with LLMs. It streamlines the large language
+model development process by offering a chain of steps to generate text from a specific input prompt.
+The toolkit handles prompt input, text generation, and generated output manipulation.
+Effectively, it allows for developing conversational agents that use LLMs to generate natural language
+responses. These agents can be used for various applications, from supporting customers at scale
+to answering company-specifc questions based on your team's internal Notion database.
+=============================================================================================================
+LangChain enables access to a range of pre-trained LLMs (e.g., GPT-3) trained on large datasets.
+The large language model component generates output (in this case, text) based on the prompt and input.
+These LLMs can further be fine-tuned to match the needs of specific conversational agents
+(e.g., if you are building a legal-specific chatbot).
+If you want to train your own LLM, check out how to train your Large Language Models (LLMs) efficiently.
+=============================================================================================================
+Document Loaders
+
+With Document Loaders module, you can ingest documents (e.g., pdfs of quarterly reports, powerpoints, etc.,
+as we will do shortly!) into the LLM for further analysis (typically question answering).
+==========================================================================================================
+LangChain Utils
+
+LangChain provides an extensive collection of common utilities (Utils) to use in your application,
+such as Python REPLs (LLM would generate code to calculate the answer, run that code to get the answer
+and print it out), bash commands (e.g., to interface with the local system) or search engines,
+ as well as a requests wrapper (to link a URL published post-2021 that ChatGPT doesn't know about,
+ for instance). Utils are employed to strengthen the potency of LLMs when interacting with other sources
+ of knowledge or computation.
+ =========================================================================================================
+ LangChain Agents make a call regarding which action should be taken next
+ (e.g., a calculation should be handled by Wolfram Alpha, while a question about how old is the famous person
+ might trigger a web search) to satisfy the directive given by the input. All the possible actions are
+ chained together in a logical loop. In effect, you can use Tools (generic Utils, other chains, or even
+ other agents) or a Toolkit  (a group of tools) to minimize ChatGPT's peculiarity of being very bad at
+ answering math questions,
+==========================================================================================================
+Indexes
+
+Language models are more powerful and valuable when combined with your own (proprietary) data.
+LangChain provides common  indices for working with data - embeddings or, most commonly, a data store,
+such as Deep Lake.
+

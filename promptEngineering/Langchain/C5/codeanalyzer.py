@@ -15,15 +15,14 @@ load_dotenv()
 openai_api_key = os.environ.get('OPENAI_API_KEY')
 eleven_api_key = os.environ.get('ELEVEN_API_KEY')
 
-import os
-import getpass
+
 
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import DeepLake
 
 embeddings = OpenAIEmbeddings(disallowed_special=(), openai_api_key=OPENAI_API_KEY)
 
-!git clone https://github.com/mx0c/super-mario-python.git
+git clone https://github.com/mx0c/super-mario-python.git
 
 import os
 from langchain.document_loaders import TextLoader

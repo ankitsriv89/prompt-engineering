@@ -1,0 +1,7 @@
+deeplake
+langchain
+openai
+tiktoken
+wikipedia
+flask
+flask_bootstrap
